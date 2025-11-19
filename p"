@@ -1,0 +1,77 @@
+[1mdiff --git "a/p with new content\"" "b/p with new content\""[m
+[1mnew file mode 100644[m
+[1mindex 0000000..36e0c5c[m
+[1m--- /dev/null[m
+[1m+++ "b/p with new content\""[m	
+[36m@@ -0,0 +1,57 @@[m
+[32m+[m[32m[1mdiff --git a/pom.xml b/pom.xml[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..2fefbd9[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/pom.xml[m[m
+[32m+[m[32m[36m@@ -0,0 +1,21 @@[m[m
+[32m+[m[32m[32m+[m[32m<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"[m[m
+[32m+[m[32m[32m+[m[32m  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">[m[m
+[32m+[m[32m[32m+[m[32m  <modelVersion>4.0.0</modelVersion>[m[m
+[32m+[m[32m[32m+[m[32m  <groupId>com.nextwork.app</groupId>[m[m
+[32m+[m[32m[32m+[m[32m  <artifactId>nextwork-web-project</artifactId>[m[m
+[32m+[m[32m[32m+[m[32m  <packaging>war</packaging>[m[m
+[32m+[m[32m[32m+[m[32m  <version>1.0-SNAPSHOT</version>[m[m
+[32m+[m[32m[32m+[m[32m  <name>nextwork-web-project Maven Webapp</name>[m[m
+[32m+[m[32m[32m+[m[32m  <url>http://maven.apache.org</url>[m[m
+[32m+[m[32m[32m+[m[32m  <dependencies>[m[m
+[32m+[m[32m[32m+[m[32m    <dependency>[m[m
+[32m+[m[32m[32m+[m[32m      <groupId>junit</groupId>[m[m
+[32m+[m[32m[32m+[m[32m      <artifactId>junit</artifactId>[m[m
+[32m+[m[32m[32m+[m[32m      <version>3.8.1</version>[m[m
+[32m+[m[32m[32m+[m[32m      <scope>test</scope>[m[m
+[32m+[m[32m[32m+[m[32m    </dependency>[m[m
+[32m+[m[32m[32m+[m[32m  </dependencies>[m[m
+[32m+[m[32m[32m+[m[32m  <build>[m[m
+[32m+[m[32m[32m+[m[32m    <finalName>nextwork-web-project</finalName>[m[m
+[32m+[m[32m[32m+[m[32m  </build>[m[m
+[32m+[m[32m[32m+[m[32m</project>[m[m
+[32m+[m[32m[1mdiff --git a/src/main/webapp/WEB-INF/web.xml b/src/main/webapp/WEB-INF/web.xml[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..9f88c1f[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/src/main/webapp/WEB-INF/web.xml[m[m
+[32m+[m[32m[36m@@ -0,0 +1,7 @@[m[m
+[32m+[m[32m[32m+[m[32m<!DOCTYPE web-app PUBLIC[m[m
+[32m+[m[32m[32m+[m[32m "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"[m[m
+[32m+[m[32m[32m+[m[32m "http://java.sun.com/dtd/web-app_2_3.dtd" >[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m<web-app>[m[m
+[32m+[m[32m[32m+[m[32m  <display-name>Archetype Created Web Application</display-name>[m[m
+[32m+[m[32m[32m+[m[32m</web-app>[m[m
+[32m+[m[32m[1mdiff --git a/src/main/webapp/index.jsp b/src/main/webapp/index.jsp[m[m
+[32m+[m[32m[1mnew file mode 100644[m[m
+[32m+[m[32m[1mindex 0000000..bc7e164[m[m
+[32m+[m[32m[1m--- /dev/null[m[m
+[32m+[m[32m[1m+++ b/src/main/webapp/index.jsp[m[m
+[32m+[m[32m[36m@@ -0,0 +1,11 @@[m[m
+[32m+[m[32m[32m+[m[32m<html>[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m<body>[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m<h2>Hello ohio</h2>[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m<p>This is my NextWork web application working!</p>[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m</body>[m[m
+[32m+[m[32m[32m+[m[m
+[32m+[m[32m[32m+[m[32m</html>[m[m
+[1mdiff --git a/src/main/webapp/index.jsp b/src/main/webapp/index.jsp[m
+[1mindex bc7e164..e4d3a0b 100644[m
+[1m--- a/src/main/webapp/index.jsp[m
+[1m+++ b/src/main/webapp/index.jsp[m
+[36m@@ -6,6 +6,9 @@[m
+ [m
+ <p>This is my NextWork web application working!</p>[m
+ [m
+[32m+[m[32m<p>If you see this line in Github, that means your latest changes are getting pushed to your cloud repo :o</p>[m
+[32m+[m
+[32m+[m
+ </body>[m
+ [m
+ </html>[m
